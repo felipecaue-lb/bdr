@@ -10,57 +10,59 @@
 </section>
 
 <section class="container">
-	<div class="col-sm-4">
-        <?php
-            
-            $result = '';
-            
-            for ($i=1; $i<=100; $i++) {
-                
-                if ($i%3 == 0 && $i%5 == 0)
-                    $result .= '<span class="label label-success">FizzBuzz</span>';
-                elseif ($i%3 == 0)
-                    $result .= '<span class="label label-primary">Fizz</span>';
-                elseif ($i%5 == 0)
-                    $result .= '<span class="label label-danger">Buzz</span>';
-                else
-                    $result .= '<span class="label label-default">'.$i.'</span>';
-                
-                if ($i%10 == 0)
-                    $result .= '<br />';
-                
-            }
-            
-            echo $result;
-            
-        ?>
-    </div>
-    
-    <div class="col-sm-8">
-        <pre>
-            &lt;?php
+    <div class="row">
+        <div class="col-sm-4">
+            <?php
                 
                 $result = '';
                 
-                for ($i=1; $i&lt;=100; $i++) {
+                for ($i=1; $i<=100; $i++) {
                     
                     if ($i%3 == 0 && $i%5 == 0)
-                        $result .= '&lt;span class="label label-success"&gt;FizzBuzz&lt;/span&gt;';
+                        $result .= '<span class="label label-success">FizzBuzz</span>';
                     elseif ($i%3 == 0)
-                        $result .= '&lt;span class="label label-primary"&gt;Fizz&lt;/span&gt;';
+                        $result .= '<span class="label label-primary">Fizz</span>';
                     elseif ($i%5 == 0)
-                        $result .= '&lt;span class="label label-danger"&gt;Buzz&lt;/span&gt;';
+                        $result .= '<span class="label label-danger">Buzz</span>';
                     else
-                        $result .= '&lt;span class="label label-default"&gt;'.$i.'&lt;/span&gt;';
+                        $result .= '<span class="label label-default">'.$i.'</span>';
                     
                     if ($i%10 == 0)
-                        $result .= '&lt;br /&gt;';
+                        $result .= '<br />';
                     
                 }
                 
                 echo $result;
                 
-            ?&gt;
-        </pre>
+            ?>
+        </div>
+        
+        <div class="col-sm-8">
+            <pre>
+                &lt;?php
+                    
+                    $result = '';
+                    
+                    for ($i=1; $i&lt;=100; $i++) {
+                        
+                        if ($i%3 == 0 && $i%5 == 0)
+                            $result .= '&lt;span class="label label-success"&gt;FizzBuzz&lt;/span&gt;';
+                        elseif ($i%3 == 0)
+                            $result .= '&lt;span class="label label-primary"&gt;Fizz&lt;/span&gt;';
+                        elseif ($i%5 == 0)
+                            $result .= '&lt;span class="label label-danger"&gt;Buzz&lt;/span&gt;';
+                        else
+                            $result .= '&lt;span class="label label-default"&gt;'.$i.'&lt;/span&gt;';
+                        
+                        if ($i%10 == 0)
+                            $result .= '&lt;br /&gt;';
+                        
+                    }
+                    
+                    echo $result;
+                    
+                ?&gt;
+            </pre>
+        </div>
     </div>
 </section>
