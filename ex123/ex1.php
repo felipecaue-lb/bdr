@@ -1,7 +1,11 @@
 <section class="container">
     <div class="jumbotron">
         <h1>Exercício 1</h1>
-        <p>Escreva um programa que imprima números de 1 a 100. Mas, para múltiplos de 3 imprima “Fizz” em vez do número e para múltiplos de 5 imprima “Buzz”. Para números múltiplos de ambos (3 e 5), imprima “FizzBuzz”.</p>
+        <p>
+            Escreva um programa que imprima números de 1 a 100. Mas, para múltiplos de 3 
+            imprima “Fizz” em vez do número e para múltiplos de 5 imprima “Buzz”. Para 
+            números múltiplos de ambos (3 e 5), imprima “FizzBuzz”.
+        </p>
     </div>
 </section>
 
