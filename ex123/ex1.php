@@ -18,7 +18,7 @@
                 
                 for ($i=1; $i<=100; $i++) {
                     
-                    if ($i%3 == 0 && $i%5 == 0)
+                    if ($i%3 == 0 and $i%5 == 0)
                         $result .= '<span class="label label-success">FizzBuzz</span>';
                     elseif ($i%3 == 0)
                         $result .= '<span class="label label-primary">Fizz</span>';
@@ -45,7 +45,7 @@
                     
                     for ($i=1; $i&lt;=100; $i++) {
                         
-                        if ($i%3 == 0 && $i%5 == 0)
+                        if ($i%3 == 0 and $i%5 == 0)
                             $result .= '&lt;span class="label label-success"&gt;FizzBuzz&lt;/span&gt;';
                         elseif ($i%3 == 0)
                             $result .= '&lt;span class="label label-primary"&gt;Fizz&lt;/span&gt;';
